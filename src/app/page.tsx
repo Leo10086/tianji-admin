@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import styles from './page.module.css'
 import {useRouter} from 'next/navigation';
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
     router.push('/register')
   }
   return (
-    <main className={styles.main}>
+    <main >
       <button onClick={login}>login</button>
       <button onClick={register}>register</button>
     </main>
