@@ -11,7 +11,7 @@ import React from 'react';
             <header>YunLian Global</header>
             <main>
                 <Space direction="vertical" size={'large'}>
-                    <h2>登录</h2>
+                    <h1>登录</h1>
                     <div>
                         <p>账号</p>
                         <Input
